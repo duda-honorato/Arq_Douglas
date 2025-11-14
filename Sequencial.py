@@ -32,7 +32,7 @@ def main():
             print("Por favor, digite um número inteiro válido.")
 
     print("=== Cálculo de Pi via Método de Monte Carlo (Sequencial) ===")
-    print(f"Número de pontos: {n_pontos:,}")
+    pi_aprox, pontos_dentro, pontos_fora, t_execucao = pi_sequencial(n_pontos)
 
     proporcao_dentro = pontos_dentro / num_pontos
     proporcao_fora = pontos_fora / num_pontos
