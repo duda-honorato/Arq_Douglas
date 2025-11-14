@@ -2,8 +2,10 @@
 Este projeto implementa o calculo de π (PI) utilizando o Metodo do Monte Carlo com a paralelizacao atraves do MPI com o objetivo de demonstrar os ganhos de desempenho obtidos atraves da programacao paralela em comparacao com a abordagem sequencial
 
 # 🎯 Objetivos
-1 - Implementar o algoritmo de Monte Carlo para cálculo de π;
-2 - Desenvolver uma versao sequencial e outra paralela do algoritmo -
+1 - Implementar o algoritmo de Monte Carlo para cálculo de π				
+
+2 - Desenvolver uma versao sequencial e outra paralela do algoritmo 
+
 3 - Analisar o speedup e eficiência do paralelismo com MPI
 
 # 🧮 Fundamentação Teórica
