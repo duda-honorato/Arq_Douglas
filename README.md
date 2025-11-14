@@ -13,4 +13,8 @@ O método baseia-se na geração de pontos aleatórios dentro de um quadrado uni
 MPI (Message Passing Interface)
 MPI é um padrão para comunicação entre processos em computação paralela, permitindo que múltiplos processos trabalhem cooperativamente na resolução de um problema.
 
-Continuar..
+# 🔗 Sobre a libguagem
+Linguagem: Python
+Biblioteca de Paralelismo: 
+Biblioteca Auxiliares: random, time e math
+Ferramentas: MPI
