@@ -12,7 +12,7 @@ def pi_sequencial(n_pontos):
         z = x*x + y*y
         if z <= 1.0:
             pontos_dentro += 1
-        else: 
+        else:  
             pontos_fora += 1
     pi_aprox = 4.0 * pontos_dentro / n_pontos
     fim = time.time()
@@ -36,13 +36,13 @@ def main():
 
     proporcao_dentro = pontos_dentro / n_pontos  # Corrigido: n_pontos
     proporcao_fora = pontos_fora / n_pontos  # Corrigido: n_pontos
-    erro_absoluto = abs(math.pi - pi_aprox)  # Corrigido: pi_aprox
+    erro_absoluto = abs(math.pi - pi_aprox)  
     erro_percentual = erro_absoluto / math.pi * 100
 
     print("\n=== RESULTADOS ===")
     print(f"Pontos dentro do círculo: {pontos_dentro:,} ({proporcao_dentro:.4f} - {proporcao_dentro*100:.2f}%)")
     print(f"Pontos fora do círculo:   {pontos_fora:,} ({proporcao_fora:.4f} - {proporcao_fora*100:.2f}%)")
-    print(f"Pontos totais:           {n_pontos:,}")  # Corrigido: n_pontos
+    print(f"Pontos totais:           {n_pontos:,}")  
     print(f"Razão (dentro/fora):     {pontos_dentro/pontos_fora:.4f}")
        
     print(f"\nPi aproximado:  {pi_aprox:.10f}")  
@@ -50,7 +50,7 @@ def main():
     print(f"Erro absoluto:  {erro_absoluto:.10f}")
     print(f"Erro percentual: {erro_percentual:.6f}%")
     
-    print(f"\nTempo de execução: {t_execucao:.4f} segundos") 
+    print(f"\nTempo de execução: {t_execucao:.4f} segundos")  
 
     print(f"\n=== VERIFICAÇÃO ===")
     if erro_percentual < 0.1:
