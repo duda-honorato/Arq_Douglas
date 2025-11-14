@@ -17,6 +17,9 @@ MPI é um padrão para comunicação entre processos em computação paralela, p
 
 # 🔗 Sobre a libguagem
 Linguagem: Python
+
 Biblioteca de Paralelismo: 
+
 Biblioteca Auxiliares: random, time e math
+
 Ferramentas: MPI
