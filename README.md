@@ -1,4 +1,4 @@
-# Descricao
+# 📋 Descricao
 Este projeto implementa o calculo de PI utilizando o Metodo do Monte Carlo com a paralelizacao atraves do MPI com o objetivo de demonstrar os ganhos de desempenho obtidos atraves da programacao paralela em comparacao com a abordagem sequencial
 
 # Método de Monte Carlo
