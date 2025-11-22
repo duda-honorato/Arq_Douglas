@@ -18,11 +18,11 @@ MPI é um padrão para comunicação entre processos em computação paralela, p
 # 🔗 Sobre a libguagem
 Linguagem: Python
 
-Biblioteca de Paralelismo: 
+Biblioteca de Paralelismo: mpi4py
 
 Biblioteca Auxiliares: random, time e math
 
-Ferramentas: MPI
+Ferramentas: MPI (Message Passing Interface)
 
 # Links Ref:
-https://rabernat.github.io/research_computing/parallel-programming-with-mpi-for-python.html
+https://rabernat.github.io/research_computing/parallel-programming-with-mpi-for-python.html; https://stackoverflow.com/questions/21088420/mpi4py-send-recv-with-tag
